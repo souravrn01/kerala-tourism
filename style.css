@@ -28,7 +28,8 @@
 font-size:100px;
 font-stretch: ultra-expanded;
 color: #aef476;
-letter-spacing: 50px;
+letter-spacing: 10px;
+text-align: center;
 }
 
 .jumbotron{
