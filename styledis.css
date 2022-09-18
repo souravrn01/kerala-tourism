@@ -1,0 +1,53 @@
+*{
+    scroll-behavior: smooth;
+
+}
+body{
+    background-color: rgb(193, 251, 193);
+}
+
+.card-body{
+    background-color: rgb(142, 246, 239);
+}
+
+.card {
+    box-shadow: 0 10px 10px 8px #888888;
+  }
+header{
+    background-color: rgb(83, 245, 83);
+    color: rgb(133, 69, 23);
+    width:600px;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    padding:20px 20px;
+    box-shadow: 0 20px 20px gray;
+
+}
+
+.top{
+    position: sticky;
+    bottom:50px;
+}
+  
+.top a{
+    font-size: 25px;
+    text-decoration: none;
+    color:rgb(31, 48, 17);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(142, 241, 96);
+    padding: 10px;
+    border-radius:50%;
+}
+
+.top a:hover{
+    background-color: rgb(84, 228, 139);
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }

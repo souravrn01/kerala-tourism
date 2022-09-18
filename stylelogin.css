@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    border-radius: 70%;
+    box-shadow: 0 5px 10px #2481c8;
+    background-color: #14a61b;
+}
+body
+{
+    background:#fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    max-width:400px;
+    border-radius: 20px;
+} 
+.card{
+    border-radius: 20px;
+    height:600px;
+    background-image: linear-gradient(to right, #69ed6b, #33862c);
+    border:none;
+    box-shadow: 0 5px 8px #414141;
+    z-index:0;
+    box-sizing: border-box;
+}
+
+
+.myHed{
+    margin-top:30px;
+    font-size: 32px;
+    margin-bottom:10px;
+    font-weight:700;
+    color:#124d34;
+    background-clip: text;
+}
+
+.button{
+    width:250px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #dfda45, #eb8d1b);
+    color:rgb(157, 58, 22);
+    font-weight: 700;
+    cursor: pointer;
+}
+.myInput{
+    width:220px;
+    padding:10px;
+    padding-left:40px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #dfda45, #eb8d1b);
+    color:rgb(92, 28, 4);
+    border:none;
+    display: block;
+    font-weight: 600;
+}
+.myInput::placeholder{
+    color:rgb(143, 28, 57);
+    opacity: 0.6;
+    font-weight: 400;
+}
+.myInput:focus{
+    border:none;
+    outline:none;
+}
+
+.button:hover{
+    color: #dc1e1e;
+}
+.check_1{
+    font-weight: 500;
+    color:rgb(85,85,85);
+    font-size: 12px;
+    margin-top:0px;
+    cursor: pointer;
+}
+
+.gohome{
+    width:180px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #dfda45, #eb8d1b);
+    color:rgb(157, 58, 22);
+    font-weight: 500;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-stretch:extra-expanded;
+    font-size:17px;
+    
+}
+
+.check_2{
+    font-weight: 500;
+    color:rgb(85,85,85);
+    font-size: 15px;
+    margin-top:0px;
+    font-style: italic;
+    cursor: pointer;
+    
+}
+.gohome:hover{
+    color: #dc1e1e;
+    font-size: 17.5px;
+   
+}

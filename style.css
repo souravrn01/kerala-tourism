@@ -1,0 +1,70 @@
+.dropdown-menu{
+    animation-name: atthover;
+    animation-duration: 1s;
+    animation-iteration-count: finite;
+    background-color: rgb(154, 241, 157);
+}
+
+#bgvid{
+    position: relative;
+    width: 100%;
+    min-height: 90vh;
+    
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    bottom:-1em;
+    left:0;
+    right:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.6;
+}
+.overlay h2{
+font-size:100px;
+font-stretch: ultra-expanded;
+color: #aef476;
+letter-spacing: 50px;
+}
+
+.jumbotron{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#acf2b3 ;
+    color: #19301c;
+}
+*{
+    scroll-behavior: smooth;
+}
+
+.card-title{
+    text-align: center;
+
+}
+
+a:link{
+    text-decoration: none;
+    color:rgb(234, 141, 27)
+}
+
+a:visited{
+    color:rgb(234, 141, 27)
+}
+
+.card-body{
+    background-color: #aef476;
+    box-shadow: 0 5px 10px rgb(55, 37, 23);
+}
+.card-body:hover{
+    background-color: #043409;
+}
+
+
+.frame{
+    border:5px solid rgb(128, 72, 136);
+}
+

@@ -1,0 +1,116 @@
+.pic{
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 40px 10px;
+    border-radius: 20px;
+}
+img{
+position: relative;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  body {
+    background: #fbf3ff;
+  } 
+  .container {
+    position: absolute;
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+  
+  .myLeftCtn {
+    position: relative;
+    background: rgb(39, 217, 125);
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+    padding-left: 50px;
+  }
+  .myLeftCtn header {
+    color: blueviolet;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .myCard {
+    position: relative;
+    background: rgb(54, 224, 136);
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  } 
+  
+  
+  .myLeftCtn .myInput {
+    width: 230px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 50px;
+    border: none;
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  }
+  .myLeftCtn .myInput:focus {
+    outline: none;
+  } 
+  .myForm {
+    position: relative;
+    margin-top: 20px;
+  } 
+  .myLeftCtn .butt {
+    background: linear-gradient(45deg, #bb36fd, #9b00e8);
+    color: #fff;
+    width: 230px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+
+    box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  } 
+  .myLeftCtn .butt:hover {
+    background: linear-gradient(45deg, #c85bff, #b726ff);
+  }
+  .myLeftCtn .butt:focus {
+    outline: none;
+  } 
+
+  .loginfo{
+    padding-top: 20px ;
+    margin-bottom: 4px;
+    font-style: oblique;
+  }
+.gohome{
+    background: linear-gradient(45deg, #36fda7, #4ce622);
+    color: rgb(123, 123, 24);
+    width: 230px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.gohome:hover {
+    background: linear-gradient(45deg, #b2e24b, #6a9618);
+    color: #8edfd2;
+
+  }
+
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  
+  
