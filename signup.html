@@ -23,17 +23,28 @@
                         <header>Create new account</header>
                         <div class="form-group">
                            
-                            <input class="myInput" type="text" placeholder="Username" id="username" > 
+                            <input class="myInput" type="text" placeholder="Username" name="username" >
+                            <p>Username must contain 5-12 characters</p></input>
+                
                         </div>
 
                         <div class="form-group">
                             
-                            <input class="myInput" placeholder="Email" type="text" id="email"> 
+                            <input class="myInput" placeholder="Email" type="text" name="email">
+                            <p>Provide proper e-mail address</p></input>
                         </div>
 
                         <div class="form-group">
                             
-                            <input class="myInput" type="password" id="password" placeholder="Password"> 
+                            <input class="myInput" placeholder="phone number" type="text" name="number">
+                            <p>(XXX-XXX-XXXX, XXX.XXX.XXXX, XXX XXX XXXX)</p>
+                        </div>
+
+                        <div class="form-group">
+                            
+                            <input class="myInput" type="password" name="password" placeholder="Password" id="pword"><br>
+                            <p id="message">Password is <span id="strength"></span></p>
+                
                         </div>
 
                         <div class="form-group">
@@ -61,7 +72,8 @@
     </div>
     <a href="./index.html"><button CLASS="d-block mx-auto gohome">BACK TO HOME</button></a>
 </div>
-    
+   <script src="./val.js"></script> 
+   <script src="./pass.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>

@@ -18,7 +18,7 @@ position: relative;
   .container {
     position: absolute;
     max-width: 800px;
-    height: 500px;
+    height: 680px;
     margin: auto;
     top: 50%;
     left: 50%;
@@ -27,14 +27,15 @@ position: relative;
   
   .myLeftCtn {
     position: relative;
-    background: rgb(39, 217, 125);
+    background: rgb(253, 249, 121);
     border-radius: 25px;
-    height: 100%;
+    max-height: 680px;
     padding: 25px;
     padding-left: 50px;
+    margin-top: 5px;
   }
   .myLeftCtn header {
-    color: blueviolet;
+    color: rgb(97, 71, 244);
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -42,8 +43,8 @@ position: relative;
 
   .myCard {
     position: relative;
-    background: rgb(54, 224, 136);
-    height: 100%;
+    background: rgb(212, 238, 126);
+    height: 95%;
     border-radius: 25px;
     box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
   } 
@@ -112,5 +113,47 @@ position: relative;
     text-decoration: none;
   }
   
-  
-  
+  /* validation css */
+
+
+  .myLeftCtn .invalid{
+    width: 230px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 50px;
+    border: none;
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    color:red;
+    outline: none;
+  }
+
+  .myLeftCtn .valid{
+    width: 230px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 50px;
+    border: none;
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    color:#4ce622;
+    outline: none;
+  }
+
+  input + p{
+    font-size: 0.8em;
+    text-align: center;
+    margin: 0 10px;
+    color: rgb(255, 85, 0);
+    opacity: 0;
+    height: 0;
+  }
+
+  input.invalid + p{
+    opacity: 1;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  /* password validation */
+  #message{
+    display:none;
+  }
