@@ -27,7 +27,7 @@ position: relative;
   
   .myLeftCtn {
     position: relative;
-    background: rgb(253, 249, 121);
+    background: rgb(207, 249, 237);
     border-radius: 25px;
     max-height: 680px;
     padding: 25px;
@@ -43,7 +43,7 @@ position: relative;
 
   .myCard {
     position: relative;
-    background: rgb(212, 238, 126);
+    background: rgb(34, 239, 215);
     height: 95%;
     border-radius: 25px;
     box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
@@ -154,6 +154,27 @@ position: relative;
   }
 
   /* password validation */
-  #message{
-    display:none;
+  
+  #message {
+    opacity: 0;
   }
+   #validity {
+
+    font-size: 15px;;
+   }
+
+   #strength{
+    font-size: 16px;;
+   }
+
+
+  .valid + #message{
+    opacity: 1;
+
+  }
+
+  .invalid + #message{
+    opacity: 1;
+  }
+
+ 
