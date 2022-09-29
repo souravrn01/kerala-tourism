@@ -3,7 +3,7 @@ var pword=document.querySelector( "#pword")
 var msg = document.querySelector('#message')
 var str = document.querySelector('#strength')
 var valid = document.querySelector('#validity')
-
+var count=0
 
 
 //regex patterns
@@ -19,7 +19,8 @@ const patterns = {
 
     function validate(field, regex){
         if(regex.test(field.value)){
-            field.className = "valid";
+            field.className = "valid"
+            // field.classList.add("pass")
         }else{
             field.className = "invalid";
         }
@@ -70,6 +71,17 @@ pword.addEventListener('keyup',(el)=>{
 
 // submition validation
 
+let testname = document.getElementById("username")
+let testmail = document.getElementById("email")
+let testnum = document.getElementById("number")
+let passtest = document.getElementById("pword")
 
-
+function check(){
+    if(testname.className == "valid" && testmail.className == "valid" && testnum.className == "valid" && passtest.className == "valid"){
+        return true
+    }else{
+        alert("fields cannot be invalid or empty")
+        return false
+    }
+}
 
