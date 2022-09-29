@@ -5,9 +5,7 @@ var str = document.querySelector('#strength')
 var valid = document.querySelector('#validity')
 var count=0
 
-
 //regex patterns
-
 const patterns = {
     number: /^((\d){3}-?(\d){3}-?(\d){4})$|^((\d){3}\.?(\d){3}\.?(\d){4})$|^((\d){3}\s?(\d){3}\s?(\d){4})$/,
     username: /^[a-z\d]{5,12}$/i,
@@ -16,7 +14,6 @@ const patterns = {
 };
 
 // validation functions
-
     function validate(field, regex){
         if(regex.test(field.value)){
             field.className = "valid"
@@ -27,7 +24,6 @@ const patterns = {
     }
 
 //event function
-
 inputs.forEach((input) => {
    input.addEventListener('keyup', (e)=>{
     validate(e.target, patterns[e.target.attributes.name.value]);
@@ -35,8 +31,6 @@ inputs.forEach((input) => {
 });
 
 // password validation
-
-
 passpattern = patterns.password
 function passtr(data,val){
     if(data <8){
@@ -47,12 +41,12 @@ function passtr(data,val){
     }
     else if(data >=8 && data <13 && val=="valid"){
         str.innerText= " okay"
-        msg.style.color = "orange"
+        msg.style.color = "blue"
         valid.innerText = " and valid"
     }
     else if(data >= 13 && data <=20 && val=="valid"){
         str.innerText = "strong"
-        msg.style.color = "#26d730" 
+        msg.style.color = "#006400" 
         valid.innerText = " and valid"  
     }
     else{
@@ -60,7 +54,6 @@ function passtr(data,val){
         msg.style.color = "#ff5925"
         valid.innerText = ""
     }
-
 }
 
 pword.addEventListener('keyup',(el)=>{
@@ -70,7 +63,6 @@ pword.addEventListener('keyup',(el)=>{
 })
 
 // submition validation
-
 let testname = document.getElementById("username")
 let testmail = document.getElementById("email")
 let testnum = document.getElementById("number")
